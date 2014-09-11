@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Job
 {
-    interface IJob
+    public interface IJob
     {
+        string Perform(string jobId);
     }
 }
